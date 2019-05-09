@@ -2,4 +2,5 @@
 	1. stat anaconda-ks.cfg
 2. cut命令用于按”**列**“提取文本字符
 	1. cut -d: -fl /etc/passwd
-3. 
+3. diff命令用于比较多个文本文件的差异
+	1. cat diff_
