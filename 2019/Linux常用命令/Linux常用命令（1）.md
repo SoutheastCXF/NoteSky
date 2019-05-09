@@ -3,6 +3,6 @@
 2. cut命令用于按”**列**“提取文本字符
 	1. cut -d: -fl /etc/passwd
 3. diff命令用于比较多个文本文件的差异
-	1. diff diff_A.txt
+	1. diff --brief/-c diff_A.txt diff_B.txt
 4. 
 
