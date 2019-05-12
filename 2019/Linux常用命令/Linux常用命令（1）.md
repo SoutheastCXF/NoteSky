@@ -4,5 +4,5 @@
 	1. cut -d: -fl /etc/passwd
 3. diff命令用于比较多个文本文件的差异
 	1. diff --brief/-c diff_A.txt diff_B.txt
-4. 
+4. dd
 
