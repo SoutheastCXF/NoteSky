@@ -8,7 +8,7 @@
 	1. dd if=/dev/zero of=560_file count=1 bs=56M
 5. file命令用于查看文件的类型
 	1. file anaconda-ks.cfg
-6. 
+6. grep 
 
 
 
