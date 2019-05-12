@@ -6,6 +6,6 @@
 	1. diff --brief/-c diff_A.txt diff_B.txt
 4. dd命令用于安装指定大小和个数的数据块来复制文件或转换文件
 	1. dd if=/dev/zero of=560_file count=1 bs=56M
-5. file命令
+5. file命令用于查看文件的类型
 
 
