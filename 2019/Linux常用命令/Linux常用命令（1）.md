@@ -4,5 +4,6 @@
 	1. cut -d: -fl /etc/passwd
 3. diff命令用于比较多个文本文件的差异
 	1. diff --brief/-c diff_A.txt diff_B.txt
-4. dd
+4. dd命令用于安装指定大小和个数的数据块来复制文件或转换文件
+	1. dd if=/dev/zero of=560_file count=1 bs=56M
 
