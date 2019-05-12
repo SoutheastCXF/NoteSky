@@ -9,7 +9,10 @@
 5. file命令用于查看文件的类型
 	1. file anaconda-ks.cfg
 6. grep -b 将可执行文件（binary）当中文本文件（text）来搜索， -c 仅显示找到的行数， -i 忽略大小写， -n显示行号， -v反向选择
-	1. grep /sbin/
+	1. grep /sbin/nologin /etc/password
+7. find命令用于按照指定条件来查找文件
+	1. -name 
+
 
 
 
