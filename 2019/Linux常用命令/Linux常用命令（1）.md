@@ -11,8 +11,8 @@
 6. grep -b 将可执行文件（binary）当中文本文件（text）来搜索， -c 仅显示找到的行数， -i 忽略大小写， -n显示行号， -v反向选择
 	1. grep /sbin/nologin /etc/password
 7. find命令用于按照指定条件来查找文件
-	1. -name   匹配名称
-	2. -perm   匹配权限
+	1. -name   匹配名称  find /etc -name "host*"
+	2. -perm   匹配权限  find / -perm -4000 -print
 	3. -user   匹配所有者
 	4. -group  匹配所有组
 	5. -size   匹配文件的大小
