@@ -29,7 +29,9 @@
 11. at 时间-> 一次性计划任务     at -l 查看临时任务
 12. atrm 3 -> 删除序列3任务
 13. crond -> 周期性计划任务
-	1. crontab 
+	1. crontab -e 创建、编辑计划任务的命令
+	2. crontab -l 查看当前计划任务的命令
+	3. crontab -
 
 
 
