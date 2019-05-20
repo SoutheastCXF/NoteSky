@@ -1,0 +1,1 @@
+1. useradd -d /home/linux -u 8888 -s /sbin/nologin linxuprobe
