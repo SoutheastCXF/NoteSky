@@ -20,5 +20,5 @@
 	6. chattr -d 使用dump命令进行备份时忽略本文件/目录
 2. lsattr命令用于显示文件的隐藏权限
 文件访问控制列表 ACL
-1. 
+1. 普通的用户无法进行root管理员家中 setfacl -Rm u:linuxprobe:rwx /root
 
