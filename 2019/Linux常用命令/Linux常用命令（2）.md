@@ -21,4 +21,6 @@
 2. lsattr命令用于显示文件的隐藏权限
 文件访问控制列表 ACL
 1. 普通的用户无法进行root管理员家中 setfacl -Rm u:linuxprobe:rwx /root
+2. du 用于查看文件数据占用量
+	1. du -sh /*
 
