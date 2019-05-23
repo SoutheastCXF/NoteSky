@@ -23,4 +23,5 @@
 1. 普通的用户无法进行root管理员家中 setfacl -Rm u:linuxprobe:rwx /root
 2. du 用于查看文件数据占用量
 	1. du -sh /*
+3. xfs_quo
 
