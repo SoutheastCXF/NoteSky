@@ -23,5 +23,5 @@
 1. 普通的用户无法进行root管理员家中 setfacl -Rm u:linuxprobe:rwx /root
 2. du 用于查看文件数据占用量
 	1. du -sh /*
-3. xfs_quota命令时是一个针对XFS文件系统管理来管理quota磁盘容量配额服务而设计的
+3. xfs_quota命令时是一个针对XFS文件系统管理来管理quota磁盘容量配额服务而设计的命令。
 
