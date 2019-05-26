@@ -17,4 +17,4 @@ semanage命令用于管理SELINUX的策略
 3. getsebool命令查询并过滤所有与HTTP协议相关的安全策略。其中off为禁止状态，on为运行状态
 4. htpasswd -c /etc/httpd/passwd leo ->为leo用户生成一个密码，类似CSDN的博客
 5. semanage port -a -t http_port_t -p tcp 6111，在selinux中添加一个能被http_port_t服务程序访问到的端口
-6. 利用apache的httpd服务，我们可以配置基于IP地址，基于端口，基于主机名三种方式对网站上的资源进行控制
+6. 利用apache的httpd服务，我们可以配置基于IP地址，基于端口，基于主机域名三种方式对网站上的资源进行控制
