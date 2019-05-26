@@ -16,4 +16,5 @@ semanage命令用于管理SELINUX的策略
 2. restorecon命令将设置好的SELINUX安全上下文立即生效，加上-Rv参数对指定的目录进行递归操作
 3. getsebool命令查询并过滤所有与HTTP协议相关的安全策略。其中off为禁止状态，on为运行状态
 4. htpasswd -c /etc/httpd/passwd leo ->为leo用户生成一个密码，类似CSDN的博客
-5. semanage port -a -t http_port_t -p tcp 6111，在
+5. semanage port -a -t http_port_t -p tcp 6111，在selinux中添加一个能被http_port_t服务程序访问到的端口
+6. 利用apache
