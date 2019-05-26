@@ -12,4 +12,4 @@
 
 **SELINUX**
 semanage命令用于管理SELINUX的策略
-1. semanage fcontext -a -t httpd_sys_content_t dir -> 
+1. semanage fcontext -a -t httpd_sys_content_t dir -> 向新的网站数据目录中添加一条SELINUX安全上下文
